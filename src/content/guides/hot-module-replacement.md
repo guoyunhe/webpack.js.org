@@ -57,7 +57,7 @@ __webpack.config.js__
 +     hot: true
     },
     plugins: [
-      new CleanWebpackPlugin(['dist']),
+      new CleanWebpackPlugin(),
       new HtmlWebpackPlugin({
         title: 'Hot Module Replacement'
       }),
@@ -247,7 +247,7 @@ __webpack.config.js__
 +     ]
 +   },
     plugins: [
-      new CleanWebpackPlugin(['dist']),
+      new CleanWebpackPlugin(),
       new HtmlWebpackPlugin({
         title: 'Hot Module Replacement'
       }),
